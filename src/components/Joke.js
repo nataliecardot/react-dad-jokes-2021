@@ -28,9 +28,9 @@ export default function Joke() {
       <h5 className="card-header">Dad Joke</h5>
       <div className="card-body">
         <p className="card-text">{joke.joke}</p>
-        <a className="btn btn-primary text-white" onClick={fetchJoke}>
+        <button className="btn btn-primary text-white" onClick={fetchJoke}>
           Get Another Joke
-        </a>
+        </button>
       </div>
     </div>
   );
