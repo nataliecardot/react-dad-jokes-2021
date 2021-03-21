@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       {/* From https://getbootstrap.com/docs/4.0/components/navbar/#nav */}
-      {/* lg: ≥992px. navbar-expand-lg: means navbar collapses for sz md and smaller (991px and under) */}
+      {/* lg: ≥992px. navbar-expand-lg: means navbar collapses/menu lis are put in hamburger toggler for sz md and smaller (991px and under) */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="#">
           Dad Jokes
