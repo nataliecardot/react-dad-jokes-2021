@@ -1,11 +1,14 @@
 import React from 'react';
+import Joke from './components/Joke';
 import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Hi</h1>
+      <div className="container">
+        <Joke />
+      </div>
     </div>
   );
 }
