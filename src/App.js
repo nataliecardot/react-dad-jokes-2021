@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <div className="container">
           <Route path="/" exact component={Joke} />
-          <Route path="/about" exact component={About} />
+          <Route path="/about" component={About} />
         </div>
       </div>
     </Router>
